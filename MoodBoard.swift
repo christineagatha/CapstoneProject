@@ -51,7 +51,7 @@ struct MoodBoard: View {
                 }
                 .padding()
                 .frame(maxWidth: .infinity)
-                .background(data.3.opacity(0.3))
+                .background(data.3.opacity(0.6))
                 .cornerRadius(20)
                 .transition(.opacity)
                 .animation(.easeInOut, value: selectedMood)
