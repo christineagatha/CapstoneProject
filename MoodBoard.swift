@@ -60,6 +60,7 @@ struct MoodBoard: View {
         }
         .padding()
     }
+
 }
 
 #Preview {
