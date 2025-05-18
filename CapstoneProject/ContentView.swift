@@ -18,16 +18,30 @@ struct ContentView: View {
                 .padding(.top, 40)
             Image("piano")
                 .padding(10)
-            Text("sdvgsvs")
+            Text("Click Below To")
+                .font(.caption)
+                .fontWeight(.semibold)
+            Text("Learn More about General Music and Music Theory!")
+                .font(.caption)
+                .fontWeight(.semibold)
             Spacer()
-            NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label Content@*/Text("Navigate")/*@END_MENU_TOKEN@*/
-            }
-            NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label Content@*/Text("Navigate")/*@END_MENU_TOKEN@*/
+            HStack {
+                NavigationLink(destination: MoodBoard()) {
+                    Text("Mood Board")
+                }
+                .padding(30)
+                .background(Color.pink.opacity(0.3))
+                .foregroundColor(.black)
+                NavigationLink(destination: TheoryQuiz()) {
+                    Text("Theory Quiz")
+                }
+                .padding(30)
+                .background(Color.pink.opacity(0.3))
+                .foregroundColor(.black)
             }
             Spacer()
             Text("@Copyright 2025 TuneIn")
+                .font(.footnote)
         }
         .padding()
         }

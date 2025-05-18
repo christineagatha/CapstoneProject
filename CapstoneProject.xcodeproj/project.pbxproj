@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EC78D4722DD97F8400E9946F /* MoodBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC78D4712DD97F8400E9946F /* MoodBoard.swift */; };
+		EC78D4742DD97FBB00E9946F /* TheoryQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC78D4732DD97FBB00E9946F /* TheoryQuiz.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EC78D4632DD92DF400E9946F /* CapstoneProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC78D4712DD97F8400E9946F /* MoodBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodBoard.swift; sourceTree = "<group>"; };
+		EC78D4732DD97FBB00E9946F /* TheoryQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoryQuiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		EC78D45A2DD92DF400E9946F = {
 			isa = PBXGroup;
 			children = (
+				EC78D4732DD97FBB00E9946F /* TheoryQuiz.swift */,
+				EC78D4712DD97F8400E9946F /* MoodBoard.swift */,
 				EC78D4652DD92DF400E9946F /* CapstoneProject */,
 				EC78D4642DD92DF400E9946F /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC78D4722DD97F8400E9946F /* MoodBoard.swift in Sources */,
+				EC78D4742DD97FBB00E9946F /* TheoryQuiz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
